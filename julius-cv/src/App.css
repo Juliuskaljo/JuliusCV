@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	background-color: rgb(10, 46, 95);
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+.navbar, ul {
+	display: flex;
+	color: rgb(255, 255, 255);
+	font-size: 1.3em;
+	justify-content: center;
+	gap: 8em;
+	padding: 0;
+}
+
+.link {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+
+.link:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.my-name {
+	position: relative;
+	top: 10%;
+	left: 20%;
+	font-size: calc(5rem + 0.5vw);
+	margin: 1em;
+}
+
+.about-me {
+	position: absolute;
+	top: 70%; 
+	left: 70%; 
+	transform: translate(-50%, -50%);
+	width: 32em;
+	text-align: center;
+  }
+
+  .about-me p {
+	font-size: 16px;
+	margin-bottom: 3em;
+  }
+
+  h2 {
+	color: aliceblue;
+  }
+ 
