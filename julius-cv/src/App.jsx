@@ -7,21 +7,23 @@ import About from "./Components/About"
 import Skills from "./Components/Skills"
 import DarkmodeSwitch from "./Components/Darkmode-switch"
 import "./index.css"
+import useLocalStorage from "use-local-storage"
 
 function App() {
 
-	const [darkMode, setDarkMode] = useState(true)
+	const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);
 
   return (
     <>
-	<div id="top" className="switchbtn" data-theme={darkMode ? "dark" : "light"}>
+	<div id="top" className="switchbtn" data-theme={darkMode ? "light" : "dark"}>
 	<DarkmodeSwitch isChecked={darkMode} handleChange={() => setDarkMode(!darkMode)}/>	
-	</div>
+	
 	<Header/>
 	<About/>
 	<ProjectAccordion/>
 	<Skills/>
 	<Footer/>
+	</div>
     </>
   )
 }

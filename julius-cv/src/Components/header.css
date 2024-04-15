@@ -75,6 +75,7 @@
 	background-color: var(--divs-color);
 	z-index: 1;
 	font-size: 1.5em;
+	
   }
   
   .menu-content ul {
@@ -88,7 +89,7 @@
   
   .menu-content a {
 	text-decoration: none;
-	color: var(--text-color);
+	color: #524d4d;
 	transition: color 0.3s ease;
   }
   

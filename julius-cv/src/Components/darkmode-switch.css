@@ -1,7 +1,7 @@
 .darkmode-switch {
 	position: absolute;
-	top: 1.7em;
-	right: 2em;
+	top: 1.15em;
+	right: 1em;
 	z-index: 1001;
 }
 
@@ -21,9 +21,10 @@
 	content: '';
 	width: 1.8em;
 	height: 1em;
-	background-color: white;
+	background-color: var(--divs-color);
 	border-radius: 1em;
 	margin-right: 0.5em;
+	transition: ease-in 250ms;
 }
 
 .toggle + label::after {
@@ -34,7 +35,7 @@
 	background-color: var(--button-color);
 	position: absolute;
 	left: 0.1em;
-	
+	transition: ease-in 250ms;
 }
 
 .toggle:checked + label::after {

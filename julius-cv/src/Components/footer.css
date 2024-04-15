@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 700px; /* tillräcklig höjd för att visa resten av bilden */
+	
   background-image: url('./public/footer.svg');
   background-size: cover;
   text-align: center;
@@ -16,7 +16,7 @@
   .text-container a {
 	font-size: large;
 	font-weight: 700;
-	color: var(--text-color);
+	color: black;
   }
 
   .github-logo, .linkedin-logo, .instagram-logo, .facebook-logo{

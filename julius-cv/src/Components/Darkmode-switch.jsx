@@ -8,8 +8,9 @@ const DarkmodeSwitch = ({ handleChange, isChecked }) => {
 				type="checkbox"
 				id="check"
 				className="toggle" onChange={handleChange}
+				checked={isChecked}
 			/>
-			<label htmlFor="check" className="switch"></label>
+			<label htmlFor="check" className="darkmode-switch"></label>
 			</div>
 	)
 };

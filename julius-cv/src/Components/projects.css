@@ -76,7 +76,7 @@ article img {
 .project-header {
 	display: flex;
 	justify-content: center;
-	color: rgb(212, 210, 210);
+	color: var(--text-color);
 }
 
 

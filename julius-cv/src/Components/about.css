@@ -25,6 +25,7 @@
 
 .julius-name {
 	margin-top: 0;
+	color: var(--text-color);
 }
 
 .about-text p {
@@ -36,7 +37,7 @@
 	flex-direction: row-reverse;
 	justify-content: space-evenly;
 	font-size: 5em;
-	color: rgb(212, 210, 210);
+	color: var(--text-color);
 	margin-bottom: 0;
 }
 
@@ -44,7 +45,7 @@
 .under-name-text {
 	font-size: 24px;
 	text-align: center;
-	color: rgb(212, 210, 210);
+	color: var(--text-color);
 }
 
 @media (max-width: 945px) {
