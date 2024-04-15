@@ -1,0 +1,129 @@
+.body-content {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6em;
+}
+
+.about-container {
+	align-items: flex-start;
+	text-align: center;
+	width: 400px;
+	}
+
+.about-text {
+	background-color: var(--divs-color);
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	border-radius: 0.5em;
+}
+
+.julius-pic {
+	width: 450px;
+	height: 350px;
+}
+
+.julius-name {
+	margin-top: 0;
+}
+
+.about-text p {
+	padding:0em 1em 0em 1em;
+}
+
+.name-text {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	font-size: 5em;
+	color: rgb(212, 210, 210);
+	margin-bottom: 0;
+}
+
+
+.under-name-text {
+	font-size: 24px;
+	text-align: center;
+	color: rgb(212, 210, 210);
+}
+
+@media (max-width: 945px) {
+
+	.name-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 50px;
+		color: rgb(212, 210, 210);
+	}
+
+	.body-content {
+		margin-top: 0em;
+	}
+
+}
+
+@media (max-width: 545px) {
+	.julius-name {
+		font-size: 60px;
+	}
+
+	.under-name-text {
+		font-size: 16px;
+	}
+
+	.julius-pic {
+		width: 350px;
+		height: 280px;
+	}
+
+	.body-content {
+		margin-top: 0em;
+	}
+}
+
+
+@media (max-width: 414px) {
+	.about-container {
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+		overflow-x: hidden;
+		width: 100%;
+	}
+	.julius-pic {
+		width: 350px;
+		height: 280px;
+		margin: auto;
+	}
+	.about-text {
+		width: 80vw;
+		margin: auto;
+		margin-top: 1em;
+	}
+	
+	
+	.name-text {
+		margin-right: 0;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.julius-name {
+		font-size: 60px;
+	}
+
+	.under-name-text {
+		font-size: 16px;
+	}
+	
+	.body-content {
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+	.about-container, .name-text {
+		display: flex;
+	}
+}

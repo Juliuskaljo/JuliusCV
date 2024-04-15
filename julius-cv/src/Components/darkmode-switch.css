@@ -1,0 +1,43 @@
+.darkmode-switch {
+	position: absolute;
+	top: 1.7em;
+	right: 2em;
+	z-index: 1001;
+}
+
+.toggle {
+	visibility: hidden;
+}
+
+.toggle + label {
+	display: flex;
+	align-items: center;
+	font-size: 1.5em;
+	cursor: pointer;
+	color: var(--text-color);
+}
+
+.toggle + label::before {
+	content: '';
+	width: 1.8em;
+	height: 1em;
+	background-color: white;
+	border-radius: 1em;
+	margin-right: 0.5em;
+}
+
+.toggle + label::after {
+	content: '';
+	height: 0.8em;
+	width: 0.8em;
+	border-radius: 1em;
+	background-color: var(--button-color);
+	position: absolute;
+	left: 0.1em;
+	
+}
+
+.toggle:checked + label::after {
+	transform: translateX(100%);
+	right: 0.1em;
+}

@@ -3,16 +3,21 @@ import "./projects.css"
 
 const projects = [
   {
-    image: "./src/assets/pokemon-cv.jpg",
+    image: "./public/pokemon-cv.jpg",
     header: "Pokemon API",
 	link: "https://juliuskaljo.github.io/Pokemon-submission/",
-    text: "Beskrivning av projekt 1"
+    text: "Inlämningsuppgift där man ska kunna skapa sig ett pokemon lag med hjälp av API"
   },
   {
-    image: "./src/assets/hangmangame.webp",
+    image: "./public/hangmangame.webp",
     header: "Hangman",
 	link: "https://wilmaniklasson.github.io/Hangman/",
-    text: "Beskrivning av projekt 2"
+    text: "JavaScript: Gruppuppgift där vi byggde ett hänga gubbe spel med hjälp av localStorage"
+  },
+  {
+    image: "./public/background.webp",header: "Masa Fejuja",
+	link: "https://ha-fed23-js-2.github.io/ruby-bananas/",
+    text: "React: Gruppuppgift där vi byggde en resturanghemsida med hjälp av API och Zustand"
   },
 ];
 
@@ -22,7 +27,7 @@ export const ProjectAccordion = () => {
 
   return (
 	<>
-  <h1 className="project-header">Mina projekt</h1>
+  <h1 id="projects" className="project-header">Mina projekt</h1>
     <section className="project-accordion">
 		
       {projects.map((project, index) => {
@@ -47,6 +52,7 @@ export const ProjectAccordion = () => {
         );
       })}
     </section>
+	<hr className="hr-others" id="knowledge"/>
 	</>
   );
 };
