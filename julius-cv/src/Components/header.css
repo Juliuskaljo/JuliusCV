@@ -119,11 +119,5 @@
 	.menu-content {
 	  z-index: 1;
 	}
-
-	.menu-content.open {
-		width: 100vw;
-		text-align: center;
-		justify-content: center;
-	}
 	}
 	

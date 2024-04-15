@@ -1,6 +1,7 @@
 .skills-header {
 	text-align: center;
 	color: var(--text-color);
+	margin-bottom: 1.5em;
 }
 
 .skills-grid {
