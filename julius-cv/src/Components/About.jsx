@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './about.css';
+import mainImage from '../assets/julius.png';
 
 function About() {
 
@@ -10,7 +11,7 @@ function About() {
 	<div className='name-text'>
 	  <h1 className='julius-name'>&lt;Julius<br></br> Kaljo/&gt;<p className='under-name-text'>Frontend Developer</p></h1>
 	  
-	  <img src="../src/assets/julius.png" alt="Bild på Julius" className="julius-pic" />
+	  <img src={mainImage} alt="Bild på Julius" className="julius-pic" />
 	</div>
 	<hr className='hr-first' id='about'/>
 	<div  className="about-text">
