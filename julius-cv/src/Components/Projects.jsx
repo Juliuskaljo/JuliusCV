@@ -1,21 +1,26 @@
 import { useState } from "react";
 import "./projects.css"
+import pokemonImage from "../assets/pokemon-cv.jpg";
+import hangmanImage from "../assets/hangmangame.webp";
+import masaFejujaImage from "../assets/background.webp";
 
 const projects = [
   {
-    image: "../src/assets/pokemon-cv.jpg",
+    image:  pokemonImage,
     header: "Pokemon API",
 	link: "https://juliuskaljo.github.io/Pokemon-submission/",
     text: "Inlämningsuppgift där man ska kunna skapa sig ett pokemon lag med hjälp av API"
   },
   {
-    image: "../src/assets/hangmangame.webp",
+    image: hangmanImage,
     header: "Hangman",
 	link: "https://wilmaniklasson.github.io/Hangman/",
     text: "JavaScript: Gruppuppgift där vi byggde ett hänga gubbe spel med hjälp av localStorage"
   },
   {
-    image: "../src/assets/background.webp",header: "Masa Fejuja",
+    image: 
+	masaFejujaImage,
+	header: "Masa Fejuja",
 	link: "https://ha-fed23-js-2.github.io/ruby-bananas/",
     text: "React: Gruppuppgift där vi byggde en resturanghemsida med hjälp av API och Zustand"
   },

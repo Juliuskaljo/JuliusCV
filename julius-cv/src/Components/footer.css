@@ -4,7 +4,7 @@
 	justify-content: center;
 	flex-direction: column;
 	
-  background-image: url('../src/assets/footer.svg');
+	background-image: url("../assets/footer.svg");
   background-size: cover;
   text-align: center;
   }
