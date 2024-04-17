@@ -10,7 +10,7 @@ function About() {
 	<div className='name-text'>
 	  <h1 className='julius-name'>&lt;Julius<br></br> Kaljo/&gt;<p className='under-name-text'>Frontend Developer</p></h1>
 	  
-	  <img src="./public/julius.png" alt="Bild på Julius" className="julius-pic" />
+	  <img src="../src/assets/julius.png" alt="Bild på Julius" className="julius-pic" />
 	</div>
 	<hr className='hr-first' id='about'/>
 	<div  className="about-text">

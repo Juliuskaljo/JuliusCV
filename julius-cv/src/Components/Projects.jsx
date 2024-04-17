@@ -3,19 +3,19 @@ import "./projects.css"
 
 const projects = [
   {
-    image: "./public/pokemon-cv.jpg",
+    image: "../src/assets/pokemon-cv.jpg",
     header: "Pokemon API",
 	link: "https://juliuskaljo.github.io/Pokemon-submission/",
     text: "Inlämningsuppgift där man ska kunna skapa sig ett pokemon lag med hjälp av API"
   },
   {
-    image: "./public/hangmangame.webp",
+    image: "../src/assets/hangmangame.webp",
     header: "Hangman",
 	link: "https://wilmaniklasson.github.io/Hangman/",
     text: "JavaScript: Gruppuppgift där vi byggde ett hänga gubbe spel med hjälp av localStorage"
   },
   {
-    image: "./public/background.webp",header: "Masa Fejuja",
+    image: "../src/assets/background.webp",header: "Masa Fejuja",
 	link: "https://ha-fed23-js-2.github.io/ruby-bananas/",
     text: "React: Gruppuppgift där vi byggde en resturanghemsida med hjälp av API och Zustand"
   },

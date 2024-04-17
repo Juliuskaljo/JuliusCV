@@ -11,15 +11,15 @@ function Footer () {
 		<p>Göteborg 412 67</p>
       </div>
 	  <div className="social-media-icons">
-		<a href="https://www.linkedin.com/in/julius-kaljo-923875229/"><img src="./public/linkedin.svg" alt="linkedin-logo" className="linkedin-logo" /></a>
+		<a href="https://www.linkedin.com/in/julius-kaljo-923875229/"><img src="../src/assets/linkedin.svg" alt="linkedin-logo" className="linkedin-logo" /></a>
 		
-		<a href="https://github.com/Juliuskaljo"><img src="./public/github.svg" alt="github-logo"
+		<a href="https://github.com/Juliuskaljo"><img src="../src/assets/github.svg" alt="github-logo"
 		className="github-logo" /></a>
 
-		<a href="https://www.instagram.com/juliuskaljo/"><img src="./public/instagram.svg" alt="instagram-logo"
+		<a href="https://www.instagram.com/juliuskaljo/"><img src="../src/assets/instagram.svg" alt="instagram-logo"
 		className="instagram-logo" /></a>
 
-		<a href="https://www.facebook.com/julius.kaljo/"><img src="./public/facebook.svg" alt="facebook-logo"
+		<a href="https://www.facebook.com/julius.kaljo/"><img src="../src/assets/facebook.svg" alt="facebook-logo"
 		className="facebook-logo" /></a>
 	  </div>
     </footer>
